@@ -1,0 +1,25 @@
+# Ignore dataset files
+datasets/*
+!datasets/raw/.gitkeep
+!datasets/merged/.gitkeep
+!datasets/cleaned/.gitkeep
+
+# Ignore notebooks outputs (optional)
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python cache files
+_pycache_/
+*.pyc
+*.pyo
+*.pyd
+
+# Large files
+*.csv
+*.xlsx
+
+# Allow your important merged dataset (remove this line if you don't want to include it)
+!datasets/merged/merged_sleep_lifestyle_NEW_3.csv
+
+# Ignore Jupyter notebook autosave
+*.ipynb_autosave
